@@ -68,9 +68,9 @@ function removeQuantityFromCart(user: User, item: Item, quantityToRemove: number
             if (removedQuantity < quantityToRemove) {
                 user.cart.splice(i, 1);
                 removedQuantity++;
-                i--; // Adjust the index after removing an item
+                i--;
             } else {
-                break; // Stop iterating if the specified quantity has been removed
+                break;
             }
         }
     }
