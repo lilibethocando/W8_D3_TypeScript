@@ -1,0 +1,14 @@
+.body {
+    background-color: aqua;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.item-card {
+    width: 30%; /* Adjust width as needed */
+    height: 18rem;
+}
